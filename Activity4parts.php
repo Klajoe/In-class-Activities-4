@@ -113,11 +113,6 @@
         {
             echo "You have to enter a about part<br>";
         }
-       
-            
-        
-
-
     ?>
 </body>
 </html>
