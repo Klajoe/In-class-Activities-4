@@ -1,6 +1,6 @@
 body{
-    margin-top: 0%;
     margin-left: 5%;
+    margin-top: 0%;
 }
 form > input{
     box-sizing: border-box;
@@ -24,7 +24,6 @@ label{
     margin-bottom: -15px;
 }
 #submit-button{
-    position: relative;
     margin-left: 110px;
     width: 80px;
 }

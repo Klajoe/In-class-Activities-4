@@ -30,7 +30,6 @@
             echo "You have to enter a username <br>";
         }
 
-        
         if( $_GET['password'] != null)
         {
             echo $_GET['password']."<br>";
@@ -40,7 +39,6 @@
             echo "You have to enter a password <br>";
         }
 
-        
         if( $_GET['address'] != null)
         {
             echo $_GET['address']."<br>";
@@ -50,18 +48,15 @@
             echo "You have to enter a address<br>";
         }
 
-        
         if( $_GET['countries'] != "none" )
         {
             echo $_GET['countries']."<br>";
         }
-
         else
         {
             echo "You have to enter a country <br>";
         }
-        
-        
+
         if($_GET['zip'] != null)
         {
             echo $_GET['zip']."<br>";
@@ -71,7 +66,6 @@
             echo "You have to enter a zip code <br>";   
         }
 
-        
         if($_GET['email'] != null)
         {
             echo $_GET['email']."<br>";
@@ -81,7 +75,6 @@
             echo "You have to enter a email <br>";
         }
 
-        
         if(empty($_GET['sex']))
         {
             echo "You have to enter a sex<br>";
@@ -90,7 +83,6 @@
         {
             echo $_GET['sex']."<br>";
         }
-
         
         if(empty($_GET['languages']))
         {

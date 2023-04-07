@@ -45,11 +45,9 @@
         <input type="radio" name="sex" id="sex" value="female"> Female <br><br>
 
         <label>Language :</label>
-        English <input type="checkbox" name="languages[]" id="language" value="English"> 
-        French <input type="checkbox" name="languages[]" id="language" value="French"> 
-        German <input type="checkbox" name="languages[]" id="language" value="German"> <br><br>
-
-        
+        <input type="checkbox" name="languages[]" id="language" value="English"> English 
+        <input type="checkbox" name="languages[]" id="language" value="French"> French 
+        <input type="checkbox" name="languages[]" id="language" value="German"> German <br><br>
         <label>About :</label>
         <textarea name="about" id="about" cols="30" rows="5"></textarea><br><br>
 
