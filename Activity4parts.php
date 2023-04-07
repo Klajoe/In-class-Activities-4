@@ -11,74 +11,74 @@
     <?php
 
         
-        if( $_GET['name'] == null)
-        {
-            echo "You have to enter a name <br>";
-        }
-        else
+        if( $_GET['name'] != null)
         {
             echo $_GET['name']."<br>";
         }
+        else
+        {
+            echo "You have to enter a name <br>";
+        }
 
         
-        if( $_GET['username'] == null)
+        if( $_GET['username'] != null)
+        {
+            echo $_GET['username']."<br>";   
+        }
+        else
         {
             echo "You have to enter a username <br>";
         }
-        else
-        {
-            echo $_GET['username']."<br>";
-        }
 
         
-        if( $_GET['password'] == null)
-        {
-            echo "You have to enter a password <br>";
-        }
-        else
+        if( $_GET['password'] != null)
         {
             echo $_GET['password']."<br>";
         }
+        else
+        {
+            echo "You have to enter a password <br>";
+        }
 
         
-        if( $_GET['address'] == null)
-        {
-            echo "You have to enter a address<br>";
-        }
-        else
+        if( $_GET['address'] != null)
         {
             echo $_GET['address']."<br>";
         }
-
-        
-        if( $_GET['countries'] == "none" )
+        else
         {
-            echo "You have to enter a country <br>";
+            echo "You have to enter a address<br>";
         }
 
-        else
+        
+        if( $_GET['countries'] != "none" )
         {
             echo $_GET['countries']."<br>";
         }
-        
-        
-        if($_GET['zip'] == null)
-        {
-            echo "You have to enter a zip code <br>";
-        }
+
         else
+        {
+            echo "You have to enter a country <br>";
+        }
+        
+        
+        if($_GET['zip'] != null)
         {
             echo $_GET['zip']."<br>";
         }
+        else
+        {
+            echo "You have to enter a zip code <br>";   
+        }
 
         
-        if($_GET['email'] == null)
+        if($_GET['email'] != null)
         {
-            echo "You have to enter a email <br>";
+            echo $_GET['email']."<br>";
         }
         else
         {
-            echo $_GET['email']."<br>";
+            echo "You have to enter a email <br>";
         }
 
         
@@ -105,13 +105,13 @@
             echo "<br>";
         }
 
-        if($_GET['about'] == null)
+        if($_GET['about'] != null)
         {
-            echo "You have to enter a about part<br>";
+            echo $_GET['about']."<br>";
         }
         else
         {
-            echo $_GET['about']."<br>";
+            echo "You have to enter a about part<br>";
         }
        
             
